@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header className="w-full bg-white shadow-sm px-4 py-2 flex items-center justify-between">
       <div className="flex items-center gap-3">
-        <Image src="/logo-correos.png" alt="Logo Correos" width={130} height={40} />
+        <Image src="/images/logo-correos.png" alt="Logo Correos" width={130} height={40} />
         <button className="bg-gray-100 p-2 rounded-full">
           <Menu className="w-5 h-5 text-gray-700 stroke-[1.2]" />
         </button>
